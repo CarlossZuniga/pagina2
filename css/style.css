@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+:root{
+	--menu-hover:#c41034;
+	--color-general:#000;
+	--color-titulos:#2d2d2d;
+}
+body{
+	font-family: "Catamaran";
+	font-size: 14px;
+}
+header{
+	background-color: #000;
+	padding: 5px 0;
+}
+footer{
+	background-color: #323232;
+	color: #bababa;
+	padding: 50px 0;
+	text-align: center;
+}
+
+/*hero*/
+#hero{
+	background-image: url("../img/bg-sliders.jpg");
+	color: #fff;
+	padding: 60px 0;
+}
+
+#hero h1{
+	font-weight: 800;
+	padding-top: 30%;
+	padding-left: 40%;
+}
+
+#hero ul{
+	padding-left: 40%;
+}
+
+/*banners*/
+#banners{
+	padding: 30px 0;
+}
+
+/*product*/
+#product{
+	padding: 30px 0 100px;
+	color: var(--color-titulos);
+}
+
+#product h3{
+	font-weight: 200;
+	padding-top: 5%;
+}
+
+#product p{
+	padding-right: 7%;
+}
+
+/*label*/
+#labels{
+	padding: 60px 0;
+}
+
+.label img{
+	width: 100px!important;
+	border-radius: 100%;
+	margin: auto;
+	margin-top: -80px;
+	margin-bottom: 30px;
+}
